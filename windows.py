@@ -122,7 +122,7 @@ def window_labeling_tool(pixel_value):
     all_canvas = AllCanvas(root, lists, rspan, w, h)
 
     # list of labels for the masks, these will be pixel values of the masks
-    list_of_labels = ['50', '250', '251', '248', '253', '254', '255']
+    list_of_labels = ['249', '250', '251', '248', '253', '254', '255']
 
     # Creating and object in which the corner coordinates of the hand labeling polygons are saved
     label_dict_select_area = DictCoordinates()
